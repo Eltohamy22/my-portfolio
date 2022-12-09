@@ -439,12 +439,13 @@ h1 span{
 }
 #about{
     display: flexbox;
-    height: 100vh; 
+    height: 1000px; 
     
     /* padding-top: 50px;  */
     
 }
  .about-photo {
+    margin-top: -30px;
      object-fit: cover;
      border-radius: 30px;
  }
@@ -459,6 +460,7 @@ h1 span{
       
     }
  .about-center{
+    padding-top: 50px;
     width: 250px;
     text-align: center;
  }
@@ -470,7 +472,7 @@ h1 span{
 
  .about-btn {
     
-     margin-top: 1.25rem;
+     /* margin-top: 1.25rem; */
      /* margin-left: 140px; */
     background: linear-gradient(to right, black, rgb(250, 231, 231), rgb(206, 47, 47));
  }
@@ -512,10 +514,10 @@ h1 span{
         height: 1000px;
         align-items: center;
         justify-content: center;
-        padding-top: 250px;
+        padding-top: 180px;
     }
      .about-center {
-    
+         margin-top: 50px;
          width: 1440px;
          display: grid;
          grid-template-columns: 1fr 1fr;
@@ -537,7 +539,7 @@ h1 span{
         height: 500px;
      }
      .about-info{
-        margin-top: 40px;
+        /* margin-top: 40px; */
         align-self: center;
         text-align: center;
      }
